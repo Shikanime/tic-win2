@@ -75,7 +75,14 @@ Step 1: Starting from the **Server Manager**.
 - **Install**;
 - **Reboot**.
 
-## Reconfigure Netowrk Time Protocole server
+Step 2: Configure DHCP like the AD DS a **warning** will show up
+
+- **CLick** Complete DHCP configuration
+- **Next**
+- **Select** Skip AD authorization
+- **Commit**
+
+## Reconfigure Network Time Protocole server
 
 ### Server A and B
 
