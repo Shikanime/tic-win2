@@ -11,6 +11,7 @@ In graphic manipulation context all manipulation that ivolves graphic manipulati
 - This infrastructure require **at least 2 Windows Server 2016** edition and at least one client of **Windows 7 or higher**;
 - The setup process must be followed by a **renitialized with sysprep** if it was cloned from a system template to get a correct SID;
 - Ensure that all server are up to date with **Windows Update** before any manipulation;
+- Setup a fresh password to the Administrator account;
 - **A dedicated subnet is highly recommanded** to avoid a DHCP conflict.
 
 ## Defining a new Active Directory Domain Services
