@@ -82,6 +82,21 @@ Step 2: Configure DHCP like the AD DS a **warning** will show up
 - **Select** Skip AD authorization
 - **Commit**
 
+Step 3: Setup a DHCP range starting from **Server Manager**
+
+- **Click** Tools;
+- **Click** DHCP;
+- **Right click** IPV4;
+- **Select** New scope...;
+- **Enter** all field;
+- **Next**;
+- **Define** IP address range (e.g. 10.0.0.200-10.0.0.254)
+- **Next _(Until Router (Default Gateway))_**
+- **Enter** Gateway internet IP
+- **Next _(Until Ativate scope)_** WARNING: Don't active the DHCP if you are not in a separate sub network to avoid conflict with other HDCP
+- **Next**
+- **Finish**
+
 ## Reconfigure Network Time Protocole server
 
 ### Server A and B
